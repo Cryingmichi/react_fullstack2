@@ -6,6 +6,7 @@ function Card(props){
             <div className="card-body">
                 <h3 className="card-title">{props.titulo}</h3>
                 <p className="card-text">{props.contenido}</p>
+                <button className="btn btn-danger" onClick={props.eliminar}>Eliminar</button>
             </div>
         </div>
     )
